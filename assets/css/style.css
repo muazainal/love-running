@@ -85,6 +85,7 @@ main {
     background-color: lightblue;
     /* Make main element take up remaining space or surplus to push footer down */
     flex: 1 0 auto;  
+    margin-top: 47px; /* Adjust based on header height */   
 }
 
 /* Footer */
