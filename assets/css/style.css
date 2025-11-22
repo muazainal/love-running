@@ -115,8 +115,18 @@ footer {
    .nav-toggle-label {
         display: none; /* Hide the nav toggle on larger screens */
    }
-}
 
+   #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+   }
+
+   /* Main content */
+    main {
+          /* Push main content down to accommodate larger header */
+          margin-top: 79px; /* Adjust based on header height */
+    }
 /*
 .oswald-<uniquifier> {
   font-family: "Oswald", sans-serif;
