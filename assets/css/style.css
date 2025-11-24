@@ -111,7 +111,7 @@ main {
     width: 80%;
     min-height: 200px;
     padding-top: 40px;
-    padding-left: 10px'
+    padding-left: 10px;
   }
 
   #cover-text > h2, #cover-text > h3 {
@@ -213,7 +213,7 @@ main {
 }
 
 /* Media query: larger or landscape phones (576px and up) */
-@media screen and (min-width: 576) {
+@media screen and (min-width: 576px) {
   #photos {
     column-count: 2;
     column-gap: 0;
@@ -271,7 +271,7 @@ main {
 
     #benefits-physical > div, 
     #benefits-mental > div {
-      width: 75%
+      width: 75%;
     }
 
     #benefits-mental > div {
@@ -400,11 +400,11 @@ main {
     top: 150px;
   }
 
-  .text-input: hover {
+  .text-input:hover {
     border-color: #f16c6b;
   }
 
-  .join-button: hover {
+  .join-button:hover {
     background-color: #fafafa;
     color: #454b1b;
   }
